@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delphina - Technology & Machine Learning</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #4b6cb7;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #3b4a75;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background: #4b6cb7;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    h1, h2 {
+      color: #4b6cb7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Delphina's Website</h1>
+    <p>Exploring Technology & Machine Learning</p>
+  </header>  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact Us</a>
+  </nav>  <div class="container" id="home">
+    <h2>Home</h2>
+    <p>Technology is changing the world every day. From artificial intelligence to robotics, we are moving towards a smarter future. Machine Learning helps computers learn patterns, make decisions, and solve problems just like humans. This website is a small step into the exciting world of innovation.</p>
+  </div>  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>Hi, I am <strong>Delphina</strong>. I am passionate about technology, coding, and machine learning. My goal is to explore the latest innovations in AI and share knowledge that inspires others to learn and grow. This platform is designed to spread awareness and create interest in the field of technology.</p>
+  </div>  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you would like to connect, feel free to reach out:</p>
+    <ul>
+      <li>Email: <a href="mailto:delphina@example.com">delphina@example.com</a></li>
+      <li>Phone: +91 98765 43210</li>
+      <li>Location: India</li>
+    </ul>
+  </div>  <footer>
+    <p>© 2025 Delphina | Technology & Machine Learning</p>
+  </footer>
+</body>
+</html>
