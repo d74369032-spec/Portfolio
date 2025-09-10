@@ -1,0 +1,38 @@
+h1 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background: linear-gradient(45deg, #4CAF50, #2196F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  margin: 25px 0;
+}
+
+h2 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2em;
+  color: #444;
+  text-align: center;
+  margin: 15px 0;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  width: 80px;
+  height: 3px;
+  background: #2196F3;
+  display: block;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+h3 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 1.4em;
+  color: #555;
+  margin: 15px 0;
+  padding-left: 10px;
+  border-left: 4px solid #4CAF50;
+}
